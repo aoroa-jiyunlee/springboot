@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="spring.boot.repository.MemberRepositoryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-27T06:27:14" hostname="jiyunleeui-MacBookPro.local" time="0.118">
+  <properties/>
+  <testcase name="testMember()" classname="spring.boot.repository.MemberRepositoryTest" time="0.118"/>
+  <system-out><![CDATA[2024-05-27T15:27:14.853+09:00  INFO 18987 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [spring.boot.repository.MemberRepositoryTest]: MemberRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-05-27T15:27:14.859+09:00  INFO 18987 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration spring.boot.BootApplication for test class spring.boot.repository.MemberRepositoryTest
+2024-05-27T15:27:14.904+09:00 DEBUG 18987 --- [    Test worker] org.hibernate.SQL                        : select next value for member_seq
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
